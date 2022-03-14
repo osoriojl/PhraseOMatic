@@ -1,10 +1,10 @@
 public class PhraseOMatic {
     public static void main(String[] args) {
-        String[] wordListOne = {"Cloudy", "Hot", "Cold", "Chilly", "Sunny"};
+        String[] wordListOne = {"Car", "Boy", "Man", "Building", "Guy", "Boss", "Elon", "Jeff"};
 
-        String[] wordListTwo = {"as", "like"};
+        String[] wordListTwo = {"burns", "flies", "jumps", "runs", "waters", "drives", "lifts", "dives", "slaps"};
 
-        String[] wordListThree = {"balls", "hell", "crap", "fudge", "doo-doo"};
+        String[] wordListThree = {"person.", "school.", "boss.", "employees.", "police.", "truck driver.", "frog.", "plane."};
 
         int oneLength = wordListOne.length;
         int twoLength = wordListTwo.length;
@@ -16,6 +16,6 @@ public class PhraseOMatic {
 
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
-        System.out.println("Today's weather is " + phrase);
+        System.out.println("Today's News: " + phrase);
     }
 }
